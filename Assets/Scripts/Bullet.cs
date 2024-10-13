@@ -17,7 +17,7 @@ public class Bullet : MonoBehaviour
 
 	public void Init(float damage, int per, Vector3 dir)
 	{
-		this .damage = damage;
+		this.damage = damage;
 		this.per = per;
 
 		if (per > -1)
